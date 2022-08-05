@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;   
+}
+
+.button {
+    display: flex;
+    background-color: #0000ff;
+    color: white; 
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placeholder {
+    display: flex;
+    background-color: lightgray;
+}
