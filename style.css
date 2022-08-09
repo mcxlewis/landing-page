@@ -70,16 +70,31 @@ h2 {
     font-size: 18px;
 } 
 /* i know theres a way to combine that ok */
-/*
-.second {
+
+/* second section */ 
+
+.second-header {
+    display: flex;
+    justify-content: center;
+    padding: 22px;
     color: #1F2937;
-    font-size: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .boxes {
-    border: 40px;
-    display: flex; 
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    height: 130px;
+    width: 130px;
+    border: 6px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-style: solid;
 }
-*/
