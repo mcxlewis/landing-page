@@ -28,8 +28,8 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
-    padding: 48px;
-    gap: 10px;
+    gap: 40px;
+    margin: 120px;
 }
 
 .left {
@@ -47,27 +47,19 @@ a {
     align-items: center;
     justify-content: center;
     flex: 1;
-} 
-
+}
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    gap: 8px;
     font-size: 24px;
-    padding: 48px;
+    margin: 16px 122px;
 }   
 
 .links {
-    padding: 2px;    
-}
-
-.logo {
     display: flex;
-    margin-right: auto;
-    font-size: 24px;
-    color: #F9FAf8;
+    gap: 18px;
 }
 
 h1 { 
