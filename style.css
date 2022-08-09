@@ -29,10 +29,12 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 48px;
+    gap: 10px;
 }
 
 .left {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -43,16 +45,23 @@ a {
     background-color: gray;
     color: white;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    flex: 1;
 } 
 
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
     gap: 8px;
+    font-size: 24px;
+    padding: 48px;
 }   
+
+.links {
+    padding: 2px;    
+}
 
 .logo {
     display: flex;
