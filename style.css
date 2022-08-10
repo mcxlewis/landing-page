@@ -15,7 +15,7 @@ a {
     color: #E5E7EB;
 }
 
-.button {
+.button-one {
     display: flex;
     background-color: #3882F6;
     width: 120px;
@@ -23,6 +23,7 @@ a {
     border-radius: 5px;
     justify-content: center;
     align-items: center;
+    color: #E5E7EB;
 }
 
 .hero {
@@ -64,7 +65,7 @@ a {
 
 h1 { 
     font-size: 48px;
-    margin: 0;
+    margin: 0; /* extra bold */
 }
 h2 {
     font-size: 18px;
@@ -79,14 +80,14 @@ h2 {
     padding: 22px;
     color: #1F2937;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold; /* extra bold */
 }
 
 .information {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 68px;
+    margin-bottom: 68px; 
 }
 
 .boxes {
@@ -113,7 +114,7 @@ h2 {
 .third {
     background-color: #E5E7EB;
     font-size: 36px;
-    font-style: italic;
+    font-style: italic; /* light italic */
     padding: 150px;
 
 }
@@ -121,6 +122,41 @@ h2 {
 .attribution {
     display: flex;
     justify-content: flex-end;
-    font-weight: bold;
+    font-weight: bold; /* extra bold */
     font-style: normal;
+}
+
+/* fourth section */
+
+.fourth {
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    width: 640px;
+    height: 130px; 
+}
+
+.button-two {
+    display: flex;
+    width: 120px;
+    height: 30px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    color:#E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-one, .button-two {
+    display: flex;
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
