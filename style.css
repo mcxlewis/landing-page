@@ -97,4 +97,18 @@ h2 {
     border-radius: 8px;
     border-color: #3882F6;
     border-style: solid;
+    margin-bottom: 68px;
+}
+
+/* third section */
+
+.third {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.attribution {
+    display: flex;
+    justify-content: flex-end;
 }
