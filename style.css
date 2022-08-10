@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif; /* padding or space between (!) between sections? */
 }
 .first {
     display: flex;
@@ -16,14 +16,7 @@ a {
 }
 
 .button-one {
-    display: flex;
     background-color: #3882F6;
-    width: 120px;
-    height: 30px;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-    color: #E5E7EB;
 }
 
 .hero {
@@ -137,19 +130,15 @@ h2 {
     display: flex;
     background-color: #3882F6;
     width: 640px;
-    height: 130px; 
+    height: 130px;
+    border-radius: 5px;
 }
 
 .button-two {
-    display: flex;
-    width: 120px;
-    height: 30px;
     border: 2px;
-    border-radius: 5px;
     border-color: #E5E7EB;
-    color:#E5E7EB;
-    justify-content: center;
-    align-items: center;
+    background-color: #3882F6;
+    border-style: solid;
 }
 
 .button-one, .button-two {
@@ -159,4 +148,5 @@ h2 {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    color: #E5E7EB;
 }
