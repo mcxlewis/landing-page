@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    font-family: Roboto, sans-serif; /* padding or space between (!) between sections? */
+    font-family: 'Roboto', sans-serif; /* padding or space between (!) between sections? */
+    margin: auto;
 }
+
 .first {
     display: flex;
     flex-direction: column;
@@ -15,6 +18,15 @@ a {
     color: #E5E7EB;
 }
 
+.button-one, .button-two {
+    display: flex;
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #E5E7EB;
+}
 .button-one {
     background-color: #3882F6;
 }
@@ -23,7 +35,8 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin: 120px;
+    margin: 120px 200px;
+
 }
 
 .left {
@@ -48,7 +61,7 @@ a {
     justify-content: space-between;
     align-items: baseline;
     font-size: 24px;
-    margin: 16px 122px;
+    margin: 16px 200px;
 }   
 
 .links {
@@ -73,13 +86,13 @@ h2 {
     padding: 22px;
     color: #1F2937;
     font-size: 36px;
-    font-weight: bold; /* extra bold */
+    font-weight: 800; /* extra bold */
 }
 
 .information {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     margin-bottom: 68px; 
 }
 
@@ -104,11 +117,13 @@ h2 {
 
 /* third section */
 
+
 .third {
     background-color: #E5E7EB;
     font-size: 36px;
-    font-style: italic; /* light italic */
-    padding: 150px;
+    font-style: italic;
+    font-weight: 200; /* light italic */
+    padding: 160px;
 
 }
 
@@ -132,6 +147,7 @@ h2 {
     width: 640px;
     height: 130px;
     border-radius: 5px;
+    align-items: center;    
 }
 
 .button-two {
@@ -141,12 +157,12 @@ h2 {
     border-style: solid;
 }
 
-.button-one, .button-two {
+.action-text {
     display: flex;
-    width: 120px;
-    height: 30px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
     color: #E5E7EB;
+}
+
+.action-left {
 }
