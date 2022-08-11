@@ -24,11 +24,8 @@ a {
 }
 
 .button-one, .button-two {
-    display: flex;
     width: 120px;
     height: 30px;
-    justify-content: center;
-    align-items: center;
     border-radius: 5px;
     color: #E5E7EB;
 }
@@ -40,7 +37,6 @@ a {
 
 .hero {
     display: flex;
-    justify-content: space-between;
     gap: 40px;
     margin: 120px 200px;
 }
@@ -103,8 +99,6 @@ h2 {
 }
 
 .boxes {
-    display: flex;
-    align-items: center;
     height: 130px;
     width: 130px;
     border: 4px;
@@ -115,8 +109,6 @@ h2 {
 }
 
  .box-wrapper {
-    display: inline-block;
-    flex-wrap: wrap;
     text-align: center;
     max-width: 148px;
 }  
@@ -127,7 +119,7 @@ h2 {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    font-weight: 200; /* light italic */
+    font-weight: ; /* light italic */
     padding: 160px;
 }
 
