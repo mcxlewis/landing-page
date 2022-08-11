@@ -3,12 +3,16 @@
 body {
     font-family: 'Roboto', sans-serif; /* padding or space between (!) between sections? */
     margin: auto;
-}
-
-.first {
     display: flex;
     flex-direction: column;
-    background-color: hsl(215, 28%, 17%);
+}
+.first {
+    flex-direction: column;
+}
+
+.first, .fifth {
+    display: flex;
+    background-color: #1f2937;
     color: #E5E7EB;
 }
 
@@ -29,6 +33,7 @@ a {
 }
 .button-one {
     background-color: #3882F6;
+    margin-top: 10px;
 }
 
 .hero {
@@ -44,7 +49,6 @@ a {
     flex: 1;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
 }
 
  .placeholder {
@@ -71,12 +75,13 @@ a {
 
 h1 { 
     font-size: 48px;
-    margin: 0; /* extra bold */
+    font-weight: bolder;
+    margin: 0;
 }
 h2 {
     font-size: 18px;
+    font-weight: lighter;
 } 
-/* i know theres a way to combine that ok */
 
 /* second section */ 
 
@@ -86,7 +91,7 @@ h2 {
     padding: 22px;
     color: #1F2937;
     font-size: 36px;
-    font-weight: 800; /* extra bold */
+    font-weight: 800;
 }
 
 .information {
@@ -108,11 +113,11 @@ h2 {
     margin-bottom: 6px;
 }
 
- .card {
+ .box-wrapper {
     display: inline-block;
     flex-wrap: wrap;
     text-align: center;
-    max-width: 144px;
+    max-width: 148px;
 }  
 
 /* third section */
@@ -171,4 +176,13 @@ h2 {
 
 h3 {
     margin: 0px;
+}
+
+/* fifth section */
+
+.fifth {
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
 }
