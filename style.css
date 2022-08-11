@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .first {
     flex-direction: column;
 }
@@ -31,6 +32,7 @@ a {
     border-radius: 5px;
     color: #E5E7EB;
 }
+
 .button-one {
     background-color: #3882F6;
     margin-top: 10px;
@@ -41,10 +43,9 @@ a {
     justify-content: space-between;
     gap: 40px;
     margin: 120px 200px;
-
 }
 
-.left {
+.hero-left {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -121,7 +122,6 @@ h2 {
 }  
 
 /* third section */
-
 
 .third {
     background-color: #E5E7EB;
