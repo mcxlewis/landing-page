@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif; /* padding or space between (!) between sections? */
+    font-family: 'Roboto', sans-serif;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -15,6 +15,10 @@ body {
     display: flex;
     background-color: #1f2937;
     color: #E5E7EB;
+}
+
+.logo {
+    font-weight: bold;
 }
 
 a {
@@ -119,14 +123,14 @@ h2 {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    font-weight: ; /* light italic */
-    padding: 160px;
+    /* font-weight: light italic */
+    padding: 160px 400px;
 }
 
 .attribution {
     display: flex;
     justify-content: flex-end;
-    font-weight: bold; /* extra bold */
+    font-weight: bolder;
     font-style: normal;
 }
 
