@@ -2,13 +2,18 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: auto;
+    margin: 0;
+    height: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .first {
     flex-direction: column;
+    padding: 0px 200px;
+    justify-content: center;
+    height: 40%;
 }
 
 .first, .fifth {
@@ -44,8 +49,6 @@ a {
 .hero {
     display: flex;
     gap: 40px;
-    margin: 120px 200px;
-
 }
 
 .hero-left {
@@ -67,9 +70,9 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
     font-size: 24px;
-    margin: 16px 200px;
+    margin-top: 16px;
 }   
 
 .links {
@@ -77,7 +80,7 @@ a {
     gap: 18px;
 }
 
-h1 { 
+.hero-header { 
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
@@ -88,10 +91,14 @@ h2 {
     font-weight: lighter;
 } 
 
+.header-container {
+
+}
+
 /* second section */ 
 
 .second-header {
-    padding: 22px;
+    margin: 40px;
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
@@ -102,14 +109,14 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 68px; 
+    margin-bottom: 100px; 
 }
 
 .boxes {
     height: 140px;
     width: 140px;
     border: 4px;
-    border-radius: 8px;
+    border-radius: 12px;
     border-color: #3882F6;
     border-style: solid;
     margin-bottom: 6px;
@@ -130,13 +137,13 @@ h2 {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    height: 480px;
+    height: 38%;
 }
 
 .attribution {
     display: flex;
     justify-content: flex-end;
-    font-weight: bolder;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -150,16 +157,14 @@ h2 {
 
 .fourth {
     display: flex;
-    justify-content: center;
+    margin: 68px 0px;
+    padding: 0px 200px;
 }
 
 .action {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #3882F6;
     border-radius: 5px;
-    margin: 68px 200px;
+    width: 100%;
 }
 
 .button-two {
@@ -171,17 +176,14 @@ h2 {
 
 .action-content {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     color: #E5E7EB;
-    gap: 200px;
 }
 
-.action-left {
-    display: inline;
-}
-
-h3 {
-    margin: 0px;
+.action-header {
+    font-size: 22px;
+    font-weight: bold;
 }
 
 /* fifth section */
