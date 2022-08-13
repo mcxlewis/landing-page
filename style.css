@@ -53,12 +53,12 @@ a {
 .hero-button {
     background-color: #3882F6;
     border-style: none;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 .links {
     display: flex;
-    gap: 12px;
+    gap: 14px;
 }
 
 .hero-left {
@@ -121,26 +121,25 @@ a {
 .third {
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    height: 38%;
+    height: 32%;
 }
 
 .attribution {
     display: flex;
-    justify-content: flex-end;
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
+    font-size: 28px;
+    justify-content: flex-end;
 }
 
 .quote-text {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-}
+} 
 
 /* fourth section */
 
@@ -181,4 +180,5 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: auto;
+    padding: 26px;
 }
