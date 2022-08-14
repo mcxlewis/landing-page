@@ -134,6 +134,7 @@ a {
     font-style: normal;
     font-size: 28px;
     justify-content: flex-end;
+    padding-right: 10px;
 }
 
 .quote-text {
